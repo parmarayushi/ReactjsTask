@@ -1,24 +1,23 @@
-import { IconHome, IconLogout } from "@tabler/icons-react";
+import {
+  IconHome,
+  IconShoppingCartCog,
+  IconTemplate,
+} from "@tabler/icons-react";
 
 export const SidebarListItem = [
   {
-    icon: <IconHome />,
+    icon: IconHome,
     redirectTo: "/",
     label: "Dashboard",
   },
   {
-    icon: <IconHome />,
+    icon: IconTemplate,
     redirectTo: "products",
     label: "Manage Products",
   },
   {
-    icon: <IconHome />,
+    icon: IconShoppingCartCog,
     redirectTo: "orders",
     label: "Manage Orders",
-  },
-  {
-    icon: <IconLogout />,
-    redirectTo: "",
-    label: "Logout",
   },
 ];

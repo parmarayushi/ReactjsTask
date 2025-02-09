@@ -20,19 +20,7 @@ export const theme = createTheme({
   cursorType: "pointer",
 });
 export const resolver = () => ({
-  variables: {
-    "--mantine-font-family-headings": "'Inter', sans-serif",
-    "--mantine-font-family": "'Inter', sans-serif",
-    "--mantine-color-secondary": "#031837 ",
-    "--mantine-color-grey": "#95A1B5",
-    "--mantine-color-dark": "#202224",
-    "--mantine-container-width-admin": "85%",
-    "--mantine-container-width-user": "95%",
-    "--mantine-header-height": "65px",
-    "--mantine-body-bg": " #F3F4F8",
-    "--loader-color": "var(--mantine-color-primary)",
-    "--mantine-border-color": "#D3D8E2",
-  },
+  variables: {},
   dark: {},
   light: {},
 });

@@ -7,7 +7,7 @@ import { RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import { resolver, theme } from "./core/utility/constants/core.constant.jsx";
 import "./index.css";
-import router from "./routes.jsx";
+import router from "./routes/routes.jsx";
 import { store } from "./store.jsx";
 
 createRoot(document.getElementById("root")).render(

@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "38ac",
+      "name": "Laptop",
+      "description": "A latest generation laptop",
+      "price": 50000,
+      "category": "Electronics",
+      "status": "active"
+    },
+    {
+      "name": "Suit",
+      "description": "clothing",
+      "price": 600,
+      "category": "Fashion",
+      "status": "active",
+      "id": "8687"
+    },
+    {
+      "id": "be19",
+      "name": "Google Tv",
+      "description": "56 inch tv",
+      "price": 29999,
+      "category": "Appliances",
+      "status": "active"
+    },
+    {
+      "id": "4c32",
+      "name": "smart watch",
+      "description": "samsung s series",
+      "price": 20000,
+      "category": "Smart Gadgets",
+      "status": "active"
+    },
+    {
+      "id": "e836",
+      "name": "Refrigerator",
+      "description": "Samsung 1Litre ",
+      "price": 50000,
+      "category": "Appliances",
+      "status": "inactive"
+    },
+    {
+      "id": "994e",
+      "name": "Sunscreen",
+      "description": "Dot and Key ",
+      "price": 800,
+      "category": "Beauty & Personal Care",
+      "status": "inactive"
+    }
+  ]
+}
